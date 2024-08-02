@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+input:not([name="password"]):focus,
+.input:focus {
+  scale: 1.01;
+  outline: none;
+  box-shadow: 1px 1px 5px black;
+}
